@@ -253,11 +253,13 @@ details summary{cursor:pointer;font-weight:500}
    Leave it empty to run in offline mode (game + simulated preview only).
    ===================================================================== */
 const FIREBASE_CONFIG = {
-  // apiKey: "...",
-  // authDomain: "...",
-  // databaseURL: "https://YOUR-PROJECT-default-rtdb.firebaseio.com",
-  // projectId: "...",
-  // appId: "..."
+  apiKey: "AIzaSyCsPYZOwOCrHzbLTlA5QUOA0cTwVUzFvFo",
+  authDomain: "bandit-class.firebaseapp.com",
+  databaseURL: "https://bandit-class-default-rtdb.firebaseio.com",
+  projectId: "bandit-class",
+  storageBucket: "bandit-class.firebasestorage.app",
+  messagingSenderId: "334118020383",
+  appId: "1:334118020383:web:c33a37023b503b34dd3c2a"
 };
 /* Optional: separate classes/sections by adding ?room=section2 to the link. */
 const ROOM = (new URLSearchParams(location.search).get('room') || 'main').replace(/[^A-Za-z0-9_-]/g,'').slice(0,40) || 'main';
